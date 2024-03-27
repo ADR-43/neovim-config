@@ -5,10 +5,8 @@ return {
 			-- Setting the PDF viewer as default, adjust if you use something else
 			vim.cmd([[filetype plugin indent on]])
 			vim.g.vimtex_syntax_enabled = 0
-			vim.g.vimtex_view_general_viewer = "sumatra"
-			vim.g.vimtex_view_general_viewer = "C:\\Users\\aaron\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe"
-
-			-- Configure vimtex compiler settings to use mklatex
+			vim.g.vimtex_view_method = "zathura"
+			-- Configre vimtex compiler settings to use
 			vim.g.vimtex_compiler_progname = "nvr"
 			vim.g.vimtex_compiler_method = "latexmk"
 			vim.g.vimtex_compiler_latexmk = {
