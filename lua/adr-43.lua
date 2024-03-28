@@ -9,7 +9,7 @@ vim.g.maplocalleader = ","
 vim.wo.number = true
 vim.wo.relativenumber = true
 
-vim.opt.conceallevel = 2
+vim.opt.conceallevel = 1
 
 
 vim.api.nvim_set_keymap('n', '<C-u>', '<C-u>zz', {noremap = true, silent = true})
