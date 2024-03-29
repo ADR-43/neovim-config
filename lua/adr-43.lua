@@ -11,6 +11,13 @@ vim.wo.relativenumber = true
 
 vim.opt.conceallevel = 1
 
+vim.o.mouse = ''
+
+vim.opt.clipboard = 'unnamedplus'
+
+vim.o.completeopt = 'menuone,noselect'
+
+vim.api.nvim_set_keymap("n", "<Leader><tab>", "<Cmd>lua require('telescope.builtin').commands()<CR>", {noremap=false})
 
 vim.api.nvim_set_keymap('n', '<C-u>', '<C-u>zz', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-d>', '<C-d>zz', {noremap = true, silent = true})
