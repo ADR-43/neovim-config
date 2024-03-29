@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "texlab" },
+				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "texlab", "typos_lsp" },
 			})
 		end,
 	},
@@ -35,6 +35,9 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.texlab.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.typos_lsp.setup({
 				capabilities = capabilities,
 			})
 
