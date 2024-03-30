@@ -13,7 +13,7 @@
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Neovim statusline.
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - File system manager to use instead of netrw.
 - [none-ls.nvim](https://github.com/nvimtools/none-ls.nvim) - Community-maintained fork of the now-archived null-ls. Currently I have only configured it to auto-format lua. 
-- [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) - [Obsidian](https://obsidian.md) 🤝 Neovim (Obsidian is an excellent system for note taking and learning. I highly recommend it.)
+- [obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) - Obsidian 🤝 Neovim ([Obsidian](https://obsidian.md) is an excellent system for note taking and learning. I highly recommend it.)
 - [rosé pine](https://github.com/rose-pine/neovim) - Soho vibes for Neovim (adds theme/colorscheme)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Picker/Finder for Neovim with built-in ui. Also provides previewing prior to picking.
 - [telescope-ui-select](https://github.com/nvim-telescope/telescope-ui-select.nvim) - Sets the default Neovim ui to telescope, allowing for many other processes to use the same interface.
