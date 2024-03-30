@@ -1,10 +1,10 @@
 # Neovim Configuration
 
 ## Plugins
-- [vim-plug](https://github.com/junegunn/vim-plug){:target="_blank"} - Plugin manager for Neovim.
-- [vimtex](https://github.com/lervag/vimtex){:target="_blank"} - Plugin for LaTeX editing.
-- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp){:target="_blank"} - Provides manually triggered completions that replace Neovim's native omnifunc for serving completions from language servers.
-- [lua-snip](https://github.com/L3MON4D3/LuaSnip){:target="_blank"} - Snippet engine for Neovim using Lua.
+- [vim-plug](https://github.com/junegunn/vim-plug) - Plugin manager for Neovim.
+- [vimtex](https://github.com/lervag/vimtex) - Plugin for LaTeX editing.
+- [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - Provides manually triggered completions that replace Neovim's native omnifunc for serving completions from language servers.
+- [lua-snip](https://github.com/L3MON4D3/LuaSnip) - Snippet engine for Neovim using Lua.
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine for Neovim.
 - [mason.nvim](https://github.com/williamboman/mason.nvim) - Package manager for LSPs, DAPs, linters, and formatters.
 - [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) - Mason.nvim add-on which facilitates lsp configuration.
