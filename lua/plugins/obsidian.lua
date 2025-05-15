@@ -20,6 +20,14 @@ return {
 					name = "rust",
 					path = "~/vaults/rust/notes",
 				},
+				{
+					name = "projects",
+					path = "~/vaults/projects",
+				},
+				{
+					name = "PA",
+					path = "~/vaults/PA",
+				},
 			},
 
 			mappings = {
@@ -42,7 +50,6 @@ return {
 					opts = { buffer = true },
 				},
 			},
---			vim.api.nvim_set_keymap("n", "<leader>bl", ":ObsidianBacklinks<CR>", { noremap = true, silent = true }),
 
 			new_notes_location = "current_dir",
 
@@ -60,7 +67,7 @@ return {
 						suffix = suffix .. string.char(math.random(65, 90))
 					end
 				end
-				return tostring(os.date("%Y-%m-%d", os.time())) .. "-" .. suffix
+				return tostring(os.time()) .. "-" .. suffix
 			end,
 			ui = {
 				enable = true, -- set to false to disable all additional syntax features

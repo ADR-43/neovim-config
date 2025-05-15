@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "texlab", "typos_lsp" },
+				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "texlab", "typos_lsp", "html", "pyright" },
 			})
 		end,
 	},
@@ -38,6 +38,12 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.typos_lsp.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.html.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.pyright.setup({
 				capabilities = capabilities,
 			})
 

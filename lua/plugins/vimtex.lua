@@ -17,6 +17,7 @@ return {
 					"-file-line-error",
 					"-synctex=1",
 					"-interaction=nonstopmode",
+                    "-shell-escape",
 				},
 			}
 			vim.api.nvim_create_autocmd("FileType", {
@@ -32,7 +33,7 @@ return {
 		dependencies = { "L3MON4D3/LuaSnip", "lervag/vimtex" },
 		config = function()
 			require("luasnip-latex-snippets").setup({})
-			require("luasnip").config.setup({ enable_autosnippets = true })
+			require("luasnip").config.setup({ enable_autosnippets = false })
 		end,
 	},
 }

@@ -21,3 +21,8 @@ vim.api.nvim_set_keymap("n", "<Leader><tab>", "<Cmd>lua require('telescope.built
 
 vim.api.nvim_set_keymap('n', '<C-u>', '<C-u>zz', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<C-d>', '<C-d>zz', {noremap = true, silent = true})
+
+-- Set transparency
+-- vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
+-- vim.cmd('hi NeoTreeNormal guibg=NONE ctermbg=NONE')
+-- vim.cmd('hi NeoTreeNormalNC guibg=NONE ctermbg=NONE')
